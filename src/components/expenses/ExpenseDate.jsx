@@ -1,5 +1,6 @@
 import React from 'react';
 import './ExpenseDate.css';
+
 const ExpenseDate = ({ date }) => {
   const year = date.getFullYear();
   const month = date.getMonth();
